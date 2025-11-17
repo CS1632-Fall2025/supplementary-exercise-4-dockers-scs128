@@ -3,7 +3,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import org.junit.FixMethodOrder;
 import org.junit.runners.MethodSorters;
 import java.time.Duration;
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 
@@ -40,7 +40,7 @@ public class D3Test {
   JavascriptExecutor js;
   @Before
 public void setUp() {
-    WebDriverManager.chromedriver().setup();
+    //WebDriverManager.chromedriver().setup();
     ChromeOptions options = new ChromeOptions();
     options.addArguments("--headless");
     driver = new ChromeDriver(options);
