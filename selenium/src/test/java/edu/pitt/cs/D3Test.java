@@ -31,6 +31,7 @@ import org.openqa.selenium.Keys;
 import java.util.*;
 import java.net.MalformedURLException;
 import java.net.URL;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class D3Test {
@@ -39,7 +40,7 @@ public class D3Test {
   JavascriptExecutor js;
   @Before
 public void setUp() {
-    //WebDriverManager.chromedriver().setup();
+    WebDriverManager.chromedriver().setup();
     ChromeOptions options = new ChromeOptions();
     options.addArguments("--headless");
     driver = new ChromeDriver(options);
