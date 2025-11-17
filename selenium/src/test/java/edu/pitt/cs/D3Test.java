@@ -40,7 +40,9 @@ public class D3Test {
   @Before
 public void setUp() {
     WebDriverManager.chromedriver().setup();
-    driver = new ChromeDriver();
+    ChromeOptions options = new ChromeOptions();
+    options.addArguments("--headless");
+    driver = new ChromeDriver(options);
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
 }
