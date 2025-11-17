@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.wonsunahn</groupId>
-  <artifactId>cs1632-cicd-docker</artifactId>
+  <artifactId>cs1632-cicd-docker-scs128</artifactId>
   <version>1.2</version>
   <packaging>jar</packaging>
 
@@ -20,8 +20,8 @@
 
   <developers>
     <developer>
-      <name>Wonsun Ahn</name>
-      <email>wahn@pitt.edu</email>
+      <name>Scott Sullivan</name>
+      <email>scs128@pitt.edu</email>
       <organization>University of Pittsburgh</organization>
       <organizationUrl>https://www.pitt.edu/</organizationUrl>
     </developer>
